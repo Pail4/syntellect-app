@@ -2,7 +2,7 @@ import React, { ChangeEvent, ReactElement } from "react";
 
 import styles from './ButtonControll.module.css'
 import { TextControll } from "../TextControll/TextControll";
-import { TextControllViewModel } from "../../viewModels/TextControllViewModel/TextControllViewModel";
+import { TextControllViewModel } from "../../viewModels/TextControllViewModel";
 import { observer } from "mobx-react-lite";
 
 interface Props {
