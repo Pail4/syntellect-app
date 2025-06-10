@@ -1,0 +1,18 @@
+.ButtonControllWrapper {
+    display: flex;
+    align-items: center;
+
+    > * {
+        margin: 20px;
+    }
+}
+
+.ButtonList {
+    display: flex;
+    flex-direction: column;
+    min-width: 10em;
+
+    > * {
+        margin: 5px;
+    }
+}
